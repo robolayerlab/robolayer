@@ -16,7 +16,7 @@
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](#)
 [![Twitter Follow](https://img.shields.io/badge/follow-%40robolayer-1DA1F2?logo=twitter&logoColor=white)](#)
 
-[Website](roboplayer.fun) · [Docs](docs/architecture.md) · [SDK](sdk/) · [Tokenomics](docs/tokenomics.md)
+[Website](https://robolayer.fun) · [Docs](docs/architecture.md) · [SDK](sdk/) · [Tokenomics](docs/tokenomics.md)
 
 </div>
 
@@ -129,7 +129,7 @@ Full tokenomics: [docs/tokenomics.md](docs/tokenomics.md)
 ```bash
 # Prereqs: Rust 1.75+, base CLI 1.18+, Anchor 0.30.1, Node 20+
 
-git clone https://github.com/Vanana919/robolayer.git
+git clone https://https://github.com/robolayerlab/robolayer
 cd robolayer
 
 # Build the on-chain program
@@ -142,12 +142,12 @@ anchor test
 yarn deploy:devnet
 ```
 
-### Program IDs
+### Contract Addresses
 
-| Network | Program ID |
-|---------|-----------|
-| Devnet | `RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2` |
-| Mainnet | `RBLYr7mRXT4oFqJzKw8PqWnLkGpMR5C3aY6hN9qFau2` |
+| Network | Address |
+|---------|---------|
+| Base Sepolia (Testnet) | `0x3fA8B653114CC79C3E5B9823B5A49B8f7B2C1d4E` |
+| Base Mainnet | `0xC2e7D4a916B8f3E05b1A49c8D3F6e2B4a7C91d8F` |
 
 ## Roadmap
 
